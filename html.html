@@ -1,0 +1,365 @@
+DOCTYPE html>
+<html><!
+<head>
+<title>Page Title</title>
+
+<link rel="stylesheet" href="stylee.css?v=2" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="stylee.css?v=2" />
+</head>
+<body>
+  <header class="hero">
+    <div class="nav-center">
+    <div class="hero-bg"></div>
+    <nav class="navbar">
+      <div class="logo" id="logoHome" tabindex="0">
+
+        <span>PAVEL OPRCHAL</span>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Otevřít menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="nav-link active" data-page="home">Domů</a></li>
+        <li><a href="#" class="nav-link" data-page="pravidla">O mně</a></li>
+        <li><a href="#" class="nav-link" data-page="tym">Vzdělání</a></li>
+        <li><a href="#" class="nav-link" data-page="features">Kontakt</a></li>
+        <li><button class="mode-toggle" id="modeToggle" aria-label="Tmavý/světlý">
+          <svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 3V1m0 20v-2M3 11H1m20 0h-2M6.6 6.6L5.18 5.18m11.64 0-1.42 1.42M6.6 15.4 5.18 16.82m11.64 0-1.42-1.42" stroke="currentColor" stroke-width="1" fill="none"></path></svg>
+        </button></li>
+      </ul>
+    </div>
+    </nav>
+    <main class="hero-content">
+      <div class="hero-glow"></div>
+      <h1 class="hero-title" id="heroTitle">Proč vznikla tato stránka?</h1>
+      <p class="hero-desc" id="heroDesc">Protože to byl domácí úkol...</p>
+    </main>
+  </header>
+
+  <section id="mainContent">
+    <!-- Home -->
+    <section class="page-section active" data-page="home">
+      <div class="section-wrap">
+        <h2>Informace o Pavlu</h2>
+        <div class="section-columns">
+          <img src="https://pbs.twimg.com/media/GJ2rzLSXQAAvNCy.jpg" class="mc-img" alt="Steve" />
+          <div>
+            <h3>I když nemá moc volného času, právě toto ukazuje, že ho má až moc.</h3>
+            <p>
+           Má velmi výborné známky, neměl ani jednu dvojku na vysvědčení, jen samé jedničky a i tak není lachtan, umí dobře zacházet i s ohněm.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section-wrap alt">
+        <h2>Zájmy a koníčky</h2>
+        <div class="section-columns reverse">
+          <div>
+            <ul class="feature-list">
+              <li>✨ Pozorování hvězd</li>
+              <li>⚔️ Survival v reálném životě</li>
+              <li>🛡️ Hraní na hudební nástroje</li>
+              <li>🎮 Hraní her, které posouvají člověka dál</li>
+            </ul>
+          </div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOGMnni4rZHTA5Rre9V67oqABUhl_uw0hKA&s" class="mc-img" alt="Alex" />
+        </div>
+      </div>
+
+      <!-- Stats Section -->
+      <div class="stats-section">
+        <div class="stat-card">
+          <div class="stat-number" data-count="6300">6.3K+</div>
+          <div class="stat-label">Dnů života</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-count="5">5+</div>
+          <div class="stat-label">Projektů do INF</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-count="85">85+</div>
+          <div class="stat-label">BPM srdce při běhání</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-count="99">99%</div>
+          <div class="stat-label">Hodin volného času</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="page-section" data-page="features">
+      <div class="section-wrap">
+        <h2>Kontakty</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">📞</div>
+            <h3>Telefon</h3>
+            <p>Ani já sám si ho nepamatuji, ale vím, že má předvolbu +420</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">👾</div>
+            <h3>Discord</h3>
+            <p>Ten si taky nepamatuju</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h3>Osobní setkání</h3>
+            <p>Tady je trefa do černého, potkáme se někdy v ČR</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📷</div>
+            <h3>Instagram</h3>
+            <p>Nemám, protože jsem věrný hoch</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pravidla -->
+    <section class="page-section" data-page="pravidla">
+      <div class="section-wrap">
+        <h2>Životopis</h2>
+        <p class="rules-intro">
+          <strong>Takto jsem zatím prožíval svůj život.</strong>
+        </p>
+<div class="rule-block">
+ 
+  <div class="rule-header">
+    <div class="rule-title">Začátek mé cesty</div>
+    <div class="arrow"></div>
+  </div>
+
+  <div class="rule-content">
+    <ul>
+      <li>Narozen ve velmi mladém věku</li>
+      <li>Nedaleko jedné vesnice zvané Ledce</li>
+      <li>V automobilu značky Škoda</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="rule-block">
+ 
+  <div class="rule-header">
+    <div class="rule-title">Mateřská škola</div>
+    <div class="arrow"></div>
+  </div>
+
+  <div class="rule-content">
+    <ul>
+      <li>Velmi hezká léta</li>
+      <li>Možná proto, že si je moc nepamatuju</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="rule-block">
+ 
+  <div class="rule-header">
+    <div class="rule-title">Základní škola</div>
+    <div class="arrow"></div>
+  </div>
+
+  <div class="rule-content">
+    <ul>
+      <li>Součástí malotřídky</li>
+      <li>Bez tělocvičny, zato s plaveckým výcvikem</li>
+      <li>Začátek hraní na trumpetu</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="rule-block">
+ 
+  <div class="rule-header">
+    <div class="rule-title">Střední škola</div>
+    <div class="arrow"></div>
+  </div>
+
+  <div class="rule-content">
+    <ul>
+      <li>Stále se učím</li>
+      <li>Stále hraji na trumpetu</li>
+      <li>Začínám dělat projekty, jako je tento</li>
+      <li>Vyhrávám soutěže</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="rule-block">
+ 
+  <div class="rule-header">
+    <div class="rule-title">Blízká budoucnost</div>
+    <div class="arrow"></div>
+  </div>
+
+  <div class="rule-content">
+    <ul>
+      <li>Vysoká škola</li>
+      <li>Anebo pod most (protože rád rybařím)</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="rule-block">
+ 
+  <div class="rule-header">
+    <div class="rule-title">Daleká budoucnost</div>
+    <div class="arrow"></div>
+  </div>
+
+  <div class="rule-content">
+    <ul>
+      <li>To už vůbec nemám nápady</li>
+      <li>Pravděpodobně budu někde u moře, nebo v CERNu</li>
+    </ul>
+  </div>
+
+</div>
+
+
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="page-section" data-page="tym">
+      <div class="section-wrap">
+        <h2>Zatím dosažené vzdělání</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="member-avatar" style="background: linear-gradient(135deg, #247FD4, #3AB2FF);">👑</div>
+            <h3>Gynázium Židlochovice</h3>
+            <p>příspěvková organizace</p>
+            <small>Žák a reprezentant</small>
+          </div>
+          <div class="team-member">
+            <div class="member-avatar" style="background: linear-gradient(135deg, #49b3fe, #247FD4);">🛡️</div>
+            <h3>Základní škola Unkovice</h3>
+            <p>příspěvková organizace</p>
+            <small>Bývalý žák a reprezentant</small>
+          </div>
+          <div class="team-member">
+            <div class="member-avatar" style="background: linear-gradient(135deg, #3AB2FF, #1B7BA5);">⚙️</div>
+            <h3>Mateřská škola Unkovice</h3>
+            <p>příspěvková organizace</p>
+            <small>Bývalý žák</small>
+          </div>
+        </div>
+        <div style="margin-top:32px;text-align:center">
+          <a class="main-btn accent" href="https://discord.gg/" target="_blank">Připoj se na Discord</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Možnosti k hraní -->
+    <section class="page-section" data-page="info">
+      <div class="section-wrap">
+        <h2>Možnosti k hraní</h2>
+        <div class="play-grid">
+
+  <div class="play-card">
+    <div class="play-image" style="background-image:url('https://i.imgur.com/1Xq9BiE.jpeg')"></div>
+    <div class="play-content">
+      <h3 class="play-title green">SURVIVAL</h3>
+      <p>
+        Chceš si zahrát exkluzivní Survival? Čeká tě ekonomika,
+        questy, dungeony a přátelská komunita.
+      </p>
+    </div>
+  </div>
+
+  <div class="play-card">
+    <div class="play-image" style="background-image:url('https://i.imgur.com/3ZQ3Z9Q.jpeg')"></div>
+    <div class="play-content">
+      <h3 class="play-title purple">ANARCHY</h3>
+      <p>
+        Hardcore režim bez pravidel. PvP, chaos a čistý skill.
+        Jen pro odvážné hráče.
+      </p>
+    </div>
+  </div>
+
+  <div class="play-card">
+    <div class="play-image" style="background-image:url('https://i.imgur.com/7yUvePI.jpeg')"></div>
+    <div class="play-content">
+      <h3 class="play-title red">POKELAND</h3>
+      <p>
+        Minecraft + Pokémon. Chytej, trénuj a bojuj
+        na našem unikátním serveru.
+      </p>
+    </div>
+  </div>
+
+</div>
+    </section>
+  </section>
+
+<footer class="footer">
+
+  <!-- 🔝 TOP BAR -->
+  <div class="footer-top">
+    <div class="footer-top-left">
+<img src="https://www.klety.cz/fotky33734/fotos/_vyr_2292_72-copy.webp"
+alt="logo" class="footer-logo">
+      <span class="footer-ip">AMOGUS</span>
+    </div>
+
+    <div class="footer-top-right">
+      <a href="https://discord.gg/" target="_blank" rel="noopener noreferrer"><i class="fab fa-discord"></i></a>
+      <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+      <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+      <a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>O TÉTO STRÁNCE</h3>
+      <p>
+        Tento člověk, kdo vlastní tuto stránku, se snažil udělat aplikaci, zkoušel ji propojovat z firebasem, ale nic mu nevycházelo, ani chatboti si nevěděli rady...
+      </p>
+      <p class="footer-note">
+        Legenda praví, že se pokouší dokončit svůj projekt dodnes...
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h3>ODKAZY</h3>
+      <ul class="footer-links">
+<li><a href="#" data-page="home">Domů</a></li>
+<li><a href="#" data-page="pravidla">O mně</a></li>
+<li><a href="#" data-page="tym">Vzdělání</a></li>
+<li><a href="#" data-page="features">Kontakt</a></li>
+</ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>PODPOŘTE MĚ</h3>
+      <p>
+        Chcete-li mě podpořit, neváhejte, a obraťte se na mě - btw i kuře zadarmo nehrabe, takže se nebojte...
+      </p>
+      <button class="footer-btn">OBCHOD</button>
+    </div>
+
+  </div>
+
+  <!-- 🔻 BOTTOM -->
+  <div class="footer-bottom">
+    © 2026  | Vytvořil <span>PavelOpr</span>.
+  </div>
+
+</footer>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
