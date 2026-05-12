@@ -75,8 +75,8 @@ ul {
 
 .hero-bg {
   position: absolute;
-  top: -5%;
-  left: -5%;
+  top: 0%;
+  left: 0%;
   width: 110%;
   height: 110%;
   background: url('https://vtm.zive.cz//getfile.aspx?id_file=3248019') center/cover no-repeat;
