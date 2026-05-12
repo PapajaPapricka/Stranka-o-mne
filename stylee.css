@@ -83,6 +83,7 @@ ul {
   z-index: 1;
   animation: zoomBg 20s ease-in-out infinite alternate;
   filter: brightness(1.45) contrast(1.05) saturate(1.1);
+  transform-origin: top;
 }
 
 /* TMAVÝ PŘECHOD JEN NAHOŘE */
