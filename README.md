@@ -1,0 +1,1 @@
+# Stranka-o-mne
