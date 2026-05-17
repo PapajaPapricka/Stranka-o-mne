@@ -50,8 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
     heroDesc.textContent = pages[name].desc;
 
     document.title =
-      (pages[name].title !== "AETHERIA.CZ" ? pages[name].title + " – " : "") +
-      "Aetheria.cz";
+      
 
     window.scrollTo({ top: 0, behavior: "smooth" });
 
@@ -77,18 +76,6 @@ document.addEventListener("DOMContentLoaded", () => {
     navLinksEl.classList.toggle("open");
   });
 
-  // ============ IP COPY ============
-  ipBtn?.addEventListener("click", () => {
-    const ip = "play.aetheria.cz";
-    navigator.clipboard.writeText(ip);
-
-    const old = ipBtn.innerHTML;
-    ipBtn.textContent = "✓ Zkopírováno!";
-
-    setTimeout(() => {
-      ipBtn.innerHTML = old;
-    }, 1500);
-  });
 
   // ============ SHOP ============
   shopBtn?.addEventListener("click", () => {
