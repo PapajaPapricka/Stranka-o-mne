@@ -70,7 +70,6 @@ ul {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  margin-top: -72px; /* <- DŮLEŽITÉ: stáhne hero pod navbar */
 }
 
 .hero-bg {
