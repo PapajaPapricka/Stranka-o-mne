@@ -49,7 +49,11 @@ document.addEventListener("DOMContentLoaded", () => {
     heroTitle.textContent = pages[name].title;
     heroDesc.textContent = pages[name].desc;
 
+
+
     document.title =
+      (pages[name].title !== "Pavel Oprchal" ? pages[name].title + " – " : "") +
+      "Pavel Oprchal";
       
 
     window.scrollTo({ top: 0, behavior: "smooth" });
