@@ -18,6 +18,13 @@
   --nav-height: 72px;
 }
 
+.hero-content h1, 
+.hero-content h2, 
+.hero-content h3 {
+  margin-top: 0; 
+  padding-top: 0;
+}
+
 body.dark {
   --nav-text: #d3eeff;
   --nav-text-scrolled: #d3eeff;
