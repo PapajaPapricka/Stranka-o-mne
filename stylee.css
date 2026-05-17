@@ -70,6 +70,7 @@ ul {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  margin-top: -72px; /* <- DŮLEŽITÉ: stáhne hero pod navbar */
 }
 
 .hero-bg {
@@ -83,6 +84,7 @@ ul {
   animation: zoomBg 20s ease-in-out infinite alternate;
   filter: brightness(1.45) contrast(1.05) saturate(1.1);
   transform-origin: top;
+  margin-top: -72px; /* <- DŮLEŽITÉ: stáhne hero pod navbar */
 }
 
 /* TMAVÝ PŘECHOD JEN NAHOŘE */
