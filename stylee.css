@@ -61,6 +61,8 @@ ul {
 }
 
 /* ==== HERO ==== */
+
+
 .hero {
   width: 100%;
   height: 65vh;
@@ -75,16 +77,14 @@ ul {
 
 .hero-bg {
   position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  background: url('https://vtm.zive.cz//getfile.aspx?id_file=3248019') center/cover no-repeat;
+  top: -5%;
+  left: -5%;
+  width: 110%;
+  height: 110%;
+  background: url('\\DC\FolderRedirection_Zaci$\oprchal.p20\Desktop\Aetheria') center/cover no-repeat;
   z-index: 1;
   animation: zoomBg 20s ease-in-out infinite alternate;
   filter: brightness(1.45) contrast(1.05) saturate(1.1);
-  transform-origin: top;
-    margin-top: -72px; /* <- DŮLEŽITÉ: stáhne hero pod navbar */
 }
 
 /* TMAVÝ PŘECHOD JEN NAHOŘE */
