@@ -18,13 +18,6 @@
   --nav-height: 72px;
 }
 
-.hero-content h1, 
-.hero-content h2, 
-.hero-content h3 {
-  margin-top: 0; 
-  padding-top: 0;
-}
-
 body.dark {
   --nav-text: #d3eeff;
   --nav-text-scrolled: #d3eeff;
@@ -91,6 +84,7 @@ ul {
   animation: zoomBg 20s ease-in-out infinite alternate;
   filter: brightness(1.45) contrast(1.05) saturate(1.1);
   transform-origin: top;
+    margin-top: -72px; /* <- DŮLEŽITÉ: stáhne hero pod navbar */
 }
 
 /* TMAVÝ PŘECHOD JEN NAHOŘE */
