@@ -88,6 +88,7 @@ ul {
   transform-origin: top;
 }
 
+
 /* TMAVÝ PŘECHOD JEN NAHOŘE */
 .hero-bg::after {
   content: "";
